@@ -17,8 +17,20 @@
     <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
             <li><NavLink class="nav-link transition-opacity duration-500 ease-out opacity-100 mx-2" href="/" Match="NavLinkMatch.All">Home</NavLink></li>
-            <li><NavLink class="nav-link transition-opacity duration-500 ease-out opacity-100 mx-2" href="chatgpt">ChatGPT 🤖</NavLink></li>
-            <li><NavLink class="nav-link transition-opacity duration-500 ease-out opacity-100 mx-2" href="dall-e">Dall-e 🖼️</NavLink></li>
+            <li>
+                <NavLink class="nav-link transition duration-500 ease-out mx-2 hover:bg-gradient-to-r from-green-600 to-blue-600"
+                         href="chatgpt"
+                         ActiveClass="bg-gradient-to-r from-green-600 to-blue-600">
+                    ChatGPT 🤖
+                </NavLink>
+            </li>
+            <li>
+                <NavLink class="nav-link transition duration-500 ease-out mx-2 hover:bg-gradient-to-r from-purple-600 to-blue-600"
+                         href="dall-e"
+                         ActiveClass="bg-gradient-to-r from-purple-600 to-blue-600">
+                    Dall-E 🖼️
+                </NavLink>
+            </li>
         </ul>
     </div>
     <div class="navbar-end">

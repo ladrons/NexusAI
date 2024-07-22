@@ -1,5 +1,9 @@
 {
 	"devDependencies": {
 		"daisyui": "^4.12.10"
+	},
+
+	"scripts": {
+		"build:css": "pnpm dlx tailwindcss -i ./Styles/app.css -o ./wwwroot/css/app.css --watch"
 	}
 }
